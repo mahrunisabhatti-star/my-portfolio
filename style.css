@@ -52,7 +52,7 @@ nav ul li a:hover {
 .hero {
    .hero {
     height: 100vh;
-    background: url("images/bg.png") no-repeat center center/cover;
+    background: url("https://github.com/mahrunisabhatti-star/my-portfolio/commit/9f4e12a2d3dfa360685a6f5bf9bd83ca828effc1") no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -155,4 +155,5 @@ footer {
     text-align: center;
 
 }
+
 
