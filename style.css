@@ -50,16 +50,14 @@ nav ul li a:hover {
 }
 
 .hero {
+   .hero {
     height: 100vh;
+    background: url("images/bg.png") no-repeat center center/cover;
     display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-    background:  linear-gradient(rgba(0,0,0,0.7), rgba(255,0,128,0.3)),
-                url('images/bg.jpg');
-background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    justify-content: center;
+    color: white;
+}
 }
 
 .hero span {
@@ -157,3 +155,4 @@ footer {
     text-align: center;
 
 }
+
