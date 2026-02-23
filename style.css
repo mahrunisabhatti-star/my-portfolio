@@ -50,13 +50,42 @@ nav ul li a:hover {
 }
 
 .hero {
-   .hero {
-    height: 100vh;
-    background: url("https://github.com/mahrunisabhatti-star/my-portfolio/commit/9f4e12a2d3dfa360685a6f5bf9bd83ca828effc1") no-repeat center center/cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+     @keyframes bgSlider {
+    0% {
+        background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+    }
+
+    12.5% {
+        background-image: url('https://images.unsplash.com/photo-1508780709619-79562169bc64');
+    }
+
+    25% {
+        background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c');
+    }
+
+    37.5% {
+        background-image: url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');
+    }
+
+    50% {
+        background-image: url('https://images.unsplash.com/photo-1484417894907-623942c8ee29');
+    }
+
+    62.5% {
+        background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6');
+    }
+
+    75% {
+        background-image: url('https://images.unsplash.com/photo-1517430816045-df4b7de11d1d');
+    }
+
+    87.5% {
+        background-image: url('https://images.unsplash.com/photo-1492724441997-5dc865305da7');
+    }
+
+    100% {
+        background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085');
+    }
 }
 }
 
@@ -155,5 +184,6 @@ footer {
     text-align: center;
 
 }
+
 
 
